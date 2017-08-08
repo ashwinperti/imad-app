@@ -40,15 +40,7 @@ var htmlTemplate = `
             10 August 2017
         </div>
         <div>
-            <p>
-                This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article.
-            </p>
-            <p>
-                This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article.
-            </p>
-            <p>
-                This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article.
-            </p>
+            ${content}
         </div>
         </div>
     </body>
