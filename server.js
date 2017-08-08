@@ -9,7 +9,8 @@ var content = {
     title: 'Article One - by Ashwin Perti',
     heading: 'Article One',
     date: 'August 10, 2017',
-    content: `<p>
+    content: `
+            <p>
                 This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article.
             </p>
             <p>
