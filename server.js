@@ -21,6 +21,39 @@ var artileOne = {
             </p>`
 };
 
+var htmlTemplate = `
+<html>
+    <head>
+        <title>Article-One</title>
+        <link href="ui/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <a href="/">Home</a>
+            </div>
+        <hr/>
+        <h3>
+                Article One - Web Technology
+        </h3>
+        <div>
+            10 August 2017
+        </div>
+        <div>
+            <p>
+                This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article.
+            </p>
+            <p>
+                This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article.
+            </p>
+            <p>
+                This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article.
+            </p>
+        </div>
+        </div>
+    </body>
+</html>
+`;
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
