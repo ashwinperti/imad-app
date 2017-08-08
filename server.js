@@ -9,7 +9,15 @@ var content = {
     title: 'Article One - by Ashwin Perti',
     heading: 'Article One',
     date: 'August 10, 2017',
-    content: ''
+    content: `<p>
+                This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article.
+            </p>
+            <p>
+                This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article.
+            </p>
+            <p>
+                This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article.
+            </p>`
 };
 
 app.get('/', function (req, res) {
