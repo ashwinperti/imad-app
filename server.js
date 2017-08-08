@@ -24,7 +24,7 @@ var artileOne = {
 var htmlTemplate = `
 <html>
     <head>
-        <title>Article-One</title>
+        ${title}
         <link href="ui/style.css" rel="stylesheet">
     </head>
     <body>
@@ -34,10 +34,10 @@ var htmlTemplate = `
             </div>
         <hr/>
         <h3>
-                Article One - Web Technology
+                ${heading}
         </h3>
         <div>
-            10 August 2017
+            ${date}
         </div>
         <div>
             ${content}
