@@ -21,31 +21,33 @@ var artileOne = {
             </p>`
 };
 
-var htmlTemplate = `
-<html>
-    <head>
-        ${title}
-        <link href="ui/style.css" rel="stylesheet">
-    </head>
-    <body>
-        <div class="container">
+function createTemplate (data){
+
+    var htmlTemplate = `
+    <html>
+        <head>
+            ${title}
+            <link href="ui/style.css" rel="stylesheet">
+        </head>
+        <body>
+            <div class="container">
+                <div>
+                    <a href="/">Home</a>
+                </div>
+            <hr/>
+            <h3>
+                    ${heading}
+            </h3>
             <div>
-                <a href="/">Home</a>
+                ${date}
             </div>
-        <hr/>
-        <h3>
-                ${heading}
-        </h3>
-        <div>
-            ${date}
-        </div>
-        <div>
-            ${content}
-        </div>
-        </div>
-    </body>
-</html>
-`;
+            <div>
+                ${content}
+            </div>
+            </div>
+        </body>
+    </html>
+    `;
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
