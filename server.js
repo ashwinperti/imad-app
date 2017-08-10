@@ -5,7 +5,8 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var articleOne = {
+var articles = {
+    articleOne = {
     title: 'Article One - by Ashwin Perti',
     heading: 'Article One',
     date: 'August 10, 2017',
@@ -19,8 +20,37 @@ var articleOne = {
             <p>
                 This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article.
             </p>`
+        },
+    articleTwo = {
+    title: 'Article Two  - by Ashwin Perti',
+    heading: 'Article Two',
+    date: 'August 10, 2017',
+    content: `
+            <p>
+                This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article.
+            </p>
+            <p>
+                This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article.
+            </p>
+            <p>
+                This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article.
+            </p>`},
+    articleThree = {
+    title: 'Article Three - by Ashwin Perti',
+    heading: 'Article Three',
+    date: 'August 10, 2017',
+    content: `
+            <p>
+                This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article.
+            </p>
+            <p>
+                This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article.
+            </p>
+            <p>
+                This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article.
+            </p>`
+    }
 };
-
 function createTemplate (data){
 
     var title = data.title;
