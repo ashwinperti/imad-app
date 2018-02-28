@@ -9,7 +9,7 @@ var articles = {
     'article-one': {
     title: 'Article One - by Ashwin Perti',
     heading: 'Article One',
-    date: 'August 10, 2017',
+    date: 'March 1, 2018',
     content: `
             <p>
                 This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article.
@@ -24,7 +24,7 @@ var articles = {
     'article-two': {
     title: 'Article Two  - by Ashwin Perti',
     heading: 'Article Two',
-    date: 'August 10, 2017',
+    date: 'March 1, 2018',
     content: `
             <p>
                 This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article.
@@ -38,7 +38,7 @@ var articles = {
     'article-three': {
     title: 'Article Three - by Ashwin Perti',
     heading: 'Article Three',
-    date: 'August 10, 2017',
+    date: 'March 1, 2018',
     content: `
             <p>
                 This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article.
